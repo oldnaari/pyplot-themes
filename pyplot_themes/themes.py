@@ -4,7 +4,7 @@ import matplotlib.colors as colors
 import matplotlib.pyplot as plt
 import pyplot_themes.rcmod as rcmod
 import pyplot_themes.palettes as palettes
-from matplotlib.cbook.deprecation import MatplotlibDeprecationWarning
+from matplotlib import MatplotlibDeprecationWarning
 
 
 def theme_matplotlib_default(notebook=True):
